@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+/* .App-header{
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    background-color: aliceblue;
+} */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 370px;
+    height: 660px;
+    background-color: white;
+}
+.valueDisplay{
+    margin: 0;
+    
+    height: 20%;
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    height: 80%;
+
+}
+.rowCell{
+    height: 25%;
+    background-color: blue;
+   
+    display: flex;
+}
+.cell{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
