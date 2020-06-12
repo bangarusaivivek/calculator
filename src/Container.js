@@ -11,7 +11,6 @@ class Container extends Component {
         }
 
     }
-    
     clearMessage(){
         this.setState({
             message: "",
@@ -20,7 +19,7 @@ class Container extends Component {
         })
     }
     backspace(){
-        let msg = this.state.message
+        let msg = this.state.message 
         this.setState({
             message : msg.substr(0,msg.length-1)
         })
