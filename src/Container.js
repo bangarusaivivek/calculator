@@ -34,7 +34,7 @@ class Container extends Component {
     }
     bracket(){
         
-        let msg = this.state.isOpen ? "(" : ")" 
+        let msg = this.state.isOpen ? "*(" : ")" 
         this.setState({
             message : this.state.message + msg,
             isOpen : !this.state.isOpen
