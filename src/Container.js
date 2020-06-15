@@ -41,7 +41,7 @@ class Container extends Component {
         })
     }
     calculate(arr){
-        let sum = parseFloat(eval(this.state.message)).toFixed(8)
+        let sum = (eval(this.state.message))
         this.setState({
             message : sum.toString()
         },console.log(sum,typeof sum,this.state.message))
